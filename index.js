@@ -8,3 +8,8 @@ const randomIndex = Math.floor(Math.random() * quotations.length);
 const selectedQuotation = quotations[randomIndex];
 
 console.log(selectedQuotation);
+
+import { everyLoop, everySome } from './exercises.js';
+
+everyLoop()
+everySome()
